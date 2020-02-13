@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+ 
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 0;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.recipes-container {
+
+  align-content: center;
+  flex-wrap: wrap;
+  background: radial-gradient(circle, rgba(145, 145, 145, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  position: absolute;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+
+}
+
+.search-form {
+  margin-top: 20px;
+  display: flex;
+  min-height: 6vh;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.search-input {
+
+  background-color: #fff;
+  width: 40%;
+  color: #000000;
+  font-size: 20px;
+  padding: 20px;
+ 
+
+}
+
+.search-btn {
+  box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+  background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  background-color:#fc8d83;
+ 
+  cursor:pointer;
+  color:#ffffff;
+  font-size:30px;
+  font-weight:bold;
+  padding:2px 20px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+  
+}
+.search-btn:hover {
+  background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  background-color:#e4685d;
+}
+
+.search-btn:active{
+  position:relative;
+  top:1px;
+}
+
+
+.recipe {
+
+  background: linear-gradient(to left, #9e2d58, #b2bfce);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(3, 3, 3, 0.3);
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 50%;
+  color: #fff;
+  
+
+}
+
+.recipe.h1 {
+ margin: 20px;
+  size: 30px;
+
+}
+
+.recipe.ol {
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  font-size: 26px;
+  justify-items: center;
+}
+
+.recipe.li{
+  font-size: 30px;
+}
+
+
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+font-size: 25px;
+padding: 10px;
+margin:20px;
+}
+
+.image {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 white;
+  padding: 2px;
+  margin: 5px 5px 5px;
+
 }
