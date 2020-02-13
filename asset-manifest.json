@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/letsGetYammy/static/css/main.0a7bc87d.chunk.css",
+    "main.js": "/letsGetYammy/static/js/main.91a76623.chunk.js",
+    "main.js.map": "/letsGetYammy/static/js/main.91a76623.chunk.js.map",
+    "runtime-main.js": "/letsGetYammy/static/js/runtime-main.98662c65.js",
+    "runtime-main.js.map": "/letsGetYammy/static/js/runtime-main.98662c65.js.map",
+    "static/js/2.2d004f31.chunk.js": "/letsGetYammy/static/js/2.2d004f31.chunk.js",
+    "static/js/2.2d004f31.chunk.js.map": "/letsGetYammy/static/js/2.2d004f31.chunk.js.map",
+    "index.html": "/letsGetYammy/index.html",
+    "precache-manifest.6d7da4964c1f2a559fe23f57d0eec22c.js": "/letsGetYammy/precache-manifest.6d7da4964c1f2a559fe23f57d0eec22c.js",
+    "service-worker.js": "/letsGetYammy/service-worker.js",
+    "static/css/main.0a7bc87d.chunk.css.map": "/letsGetYammy/static/css/main.0a7bc87d.chunk.css.map",
+    "static/js/2.2d004f31.chunk.js.LICENSE.txt": "/letsGetYammy/static/js/2.2d004f31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98662c65.js",
+    "static/js/2.2d004f31.chunk.js",
+    "static/css/main.0a7bc87d.chunk.css",
+    "static/js/main.91a76623.chunk.js"
+  ]
+}
